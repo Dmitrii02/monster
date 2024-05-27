@@ -1,0 +1,29 @@
+.red{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin-right: 150px;
+    border: 1px solid;
+}
+.yellow{
+    height: 150px;
+    width: 150px;
+    background-color:yellow;
+    margin-right: 150px;
+}
+.green{
+    height: 150px;
+    width: 150px;
+    background-color:green;
+    margin-right: 150px;
+}
+.container{
+    display: flex   
+}
+
+@media screen  and (max-width:800px) {
+    .green{
+        background-color: black;
+        width: 400px;
+    }
+}
